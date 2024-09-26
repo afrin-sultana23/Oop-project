@@ -12,6 +12,18 @@ public class Customer {
         this.address = address;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getContact() {
+        return contact;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
     String getInfo() {
 
         return  "Customer: " + name + " " + contact + " " + address ;

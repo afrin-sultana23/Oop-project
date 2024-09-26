@@ -1,7 +1,4 @@
+public enum PetSize {
 
-
-
-enum PetSize {
-
-
+        SMALL, MEDIUM, LARGE;
 }
